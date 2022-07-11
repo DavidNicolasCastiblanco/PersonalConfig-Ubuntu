@@ -12,6 +12,28 @@ sudo apt install -y htop nodejs
 #Software Thonny 
 sudo apt install -y thonny
 
+
+#Software lsd
+cd ~/Downloads
+wget https://github.com/Peltoche/lsd/releases/download/0.21.0/lsd-musl_0.21.0_amd64.deb
+sudo apt install -y ./lsd*.deb
+rm ./lsd*.deb
+cd
+
+#Software bat
+cd ~/Downloads
+wget https://github.com/sharkdp/bat/releases/download/v0.20.0/bat-musl_0.20.0_amd64.deb
+sudo apt install -y ./bat*.deb
+rm ./bat*.deb
+cd
+
+#Software Postgresql
+udo apt-get -y install postgresql
+
+#Software PgAdmin
+
+
+
 #Software Github
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
