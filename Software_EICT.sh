@@ -1,5 +1,6 @@
 #!/bin/bash/
 
+#Software para UBUNTU 20.04
 #Acutailizacion del sistema
 sudo apt-get update
 
@@ -12,6 +13,8 @@ sudo apt install -y htop nodejs
 #Software Thonny 
 sudo apt install -y thonny
 
+#Software Spyder
+sudo pip3 install spyder
 
 #Software lsd
 cd ~/Downloads
@@ -44,7 +47,6 @@ sudo apt install -y pgadmin4-desktop
 sudo apt install -y pgadmin4-web 
 # Configure the webserver, if you installed pgadmin4-web:
 sudo /usr/pgadmin4/bin/setup-web.sh
-
 
 #Software Github
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
