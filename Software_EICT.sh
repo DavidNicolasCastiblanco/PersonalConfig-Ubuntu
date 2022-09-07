@@ -17,14 +17,14 @@ sudo apt install -y thonny
 sudo pip3 install spyder
 
 #Software lsd
-cd ~/Downloads
+cd ~/Descargas
 wget https://github.com/Peltoche/lsd/releases/download/0.21.0/lsd-musl_0.21.0_amd64.deb
 sudo apt install -y ./lsd*.deb
 rm ./lsd*.deb
 cd
 
 #Software bat
-cd ~/Downloads
+cd ~/Descargas
 wget https://github.com/sharkdp/bat/releases/download/v0.20.0/bat-musl_0.20.0_amd64.deb
 sudo apt install -y ./bat*.deb
 rm ./bat*.deb
@@ -75,13 +75,10 @@ sudo apt install -y brave-browser
 
 #Software Arduino 
 cd ~/Descargas
-
 wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz
-
 tar -xf ./arduino*.tar.xz
 rm  ./arduino*.tar.xz
-
-./arduino-linux-setup.sh
+cd ./arduino-*
 sudo ./install.sh
 
 #Software PyCharm                                                               
