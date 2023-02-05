@@ -1,1 +1,1 @@
-# Scripts-Linux-Ubuntu
+# PersonalConfig(Ubuntu-Kubuntu)
